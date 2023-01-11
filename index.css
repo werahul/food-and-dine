@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital@0;1&family=IBM+Plex+Sans+Condensed:ital@0;1&family=IBM+Plex+Sans:ital,wght@0,100;0,400;0,700;1,100;1,700&family=IBM+Plex+Serif:ital@0;1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Prosto+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+nav ul {
+    float: right;
+    margin-right: 20rem;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+.heroHead {
+    background-image: url("images/food1.jpg");
+    background-size: cover;
+    height: 550px;
+}
+
+.emailText {
+    margin: 144px 60px;
+    padding: 10px 20px;
+}
+
+.emailText h2 {
+    font-family: 'Prosto One', cursive;
+
+}
+
+.emailText input {
+    background-size: 100px;
+    height: 25px;
+    width: 45%;
+    margin-top: 15px;
+    padding: 8px;
+    border-radius: 8px;
+    border-color: white;
+    font-family: 'Prosto One', cursive;
+    font-size: 15px;
+}
+
+.btn {
+    margin: 5px 442px;
+}
+
+.btn button {
+    height: 6vh;
+    width: 8vw;
+    background-color: burlywood;
+    border-radius: 4px;
+    border-color: burlywood;
+    font-size: .8em;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+}
+
+.sec {
+    height: 450px;
+    /* background-color: orange; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec .cards {
+    padding: 50px;
+    margin-left: 30px;
+    text-align: center;
+    color: black;
+    border-radius: 20px;
+    height: 300px;
+    cursor: pointer;
+}
+
+.cards h3 {
+    font-family: 'Prosto One', cursive;
+    margin-top: 15px;
+    font-size: 1.3rem;
+
+}
+
+.cards img {
+    height: 50vh;
+    width: 30vw;
+    border-radius: 20px;
+    flex-direction: row;
+}
+
+.collections {
+    height: 350px;
+    padding: 30px;
+    text-align: center;
+}
+
+.collections h2 {
+    font-family: 'Prosto One', cursive;
+    margin-top: 15px;
+    font-size: 1.3rem;
+}
+
+.collections .category {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.category .catbox {
+    height: 40vh;
+    width: 14vw;
+    margin: 0 3px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.catbox img {
+    height: 40vh;
+    width: 14vw;
+    border-radius: 8px;
+
+}
+
+.service-sec {
+    height: 393px;
+    width: 100%;
+    background-color: #a52a2aab;
+}
+
+.service-sec .service-box {
+    height: 45vh;
+    width: 16vw;
+    float: left;
+    margin: 5px 80px;
+    padding: 50px 0;
+}
+
+.service-box img {
+    height: 30vh;
+    width: 15vw;
+}
+.main-container{
+    margin: 0 106px;
+}
+.headtext {
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'IBM Plex Sans Condensed', sans-serif; 
+    font-size: .9em;
+}
+
+.paratext {
+    margin-top: 8px;
+    font-family: 'Prosto One', cursive;
+    font-size: .8em;
+}
+
+.foot{
+    height: 240px;
+    width: 100%;
+}
+.foot .logo{
+    margin: 0 40px;
+}
+
+.links-container{
+    display: flex;
+}
+.links-container .about-foot{
+    margin: 0 50px;
+}
+.about-foot ul a{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: smaller;
+}
+
+.about-foot h4{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: medium;
+}
+#app{
+    position: absolute;
+    right: 25px;
+}
+#app h2{
+    font-family: 'IBM Plex Sans Condensed', sans-serif; 
+}
+#app img{
+    height: 8vh;
+    width: 10vw;
+    cursor: pointer;
+}
+.copy-right{
+    text-align: center;
+    font-family: 'IBM Plex Sans Condensed', sans-serif; 
+    font-weight: bolder;
+}
